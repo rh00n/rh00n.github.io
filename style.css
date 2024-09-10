@@ -48,17 +48,23 @@ body {
     width: 21%;
 }
 
-ul {
-    margin: 0px;
-}
 
-body > header {
+#main-header {
     background-color: #b13939;
     color: 	#f9f5ea;
     display: flex;
-    height: 12vh;
+    height: 10vh;
     align-items: center;
     justify-content: space-around;
+}
+
+#banner {
+    height: 3vh;
+    background-color: #812b2b;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    border: black;
 }
 
 #nav-ul {
