@@ -2,6 +2,7 @@ body {
     font-family: Didot;
     margin: 0px;
     font-size: 2vw;
+    background-color: #f9f5ea;
 }
 
 .title-container {
@@ -14,8 +15,8 @@ body {
     align-items: center;
 }
 .title .eye {
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background-color: white;
     border: 2px solid black;
@@ -23,7 +24,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 10px; /* Spacing between eyes */
+    margin: 0 1px; /* Spacing between eyes */
 }
 .title .pupil {
     width: 24px;
@@ -39,6 +40,8 @@ body {
 }
 
 #logo {
+
+    white-space: nowrap;
     margin: 0px;
     padding: 8px;
     font-family: Didot;
@@ -102,7 +105,7 @@ h2 {
 }
 
 body > footer {
-    background-color: red;
+    background-color: #b13939;
     display: flex;
 }
 
@@ -111,8 +114,8 @@ img {
 }
 
 #footer-ul {
-    display: flex;
     list-style: none;
+    align-items: center;
 }
 
 #footer-ul > div > li {
