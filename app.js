@@ -8,5 +8,5 @@ document.addEventListener('mousemove', function(event) {
         const pupil = eye.querySelector('.pupil');
         const maxPupilMove = (rect.width - pupil.offsetWidth) / 2;
         pupil.style.transform = `translate(${Math.cos(angle) * maxPupilMove}px, ${Math.sin(angle) * maxPupilMove}px)`;
-    });
-});
+    }); 
+}); 
