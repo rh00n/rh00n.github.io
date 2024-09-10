@@ -1,13 +1,47 @@
 body {
-    font-family: helvetica, arial, sans-serif;
+    font-family: Didot;
     margin: 0px;
     font-size: 2vw;
+}
+
+.title-container {
+    position: relative;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.title {
+    display: flex;
+    align-items: center;
+}
+.title .eye {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px; /* Spacing between eyes */
+}
+.title .pupil {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    transition: transform 0.1s;
+}
+.title .text {
+    display: flex;
+    align-items: center;
 }
 
 #logo {
     margin: 0px;
     padding: 8px;
-    font-family: "Fredoka One", sans-serif;
+    font-family: Didot;
     width: 21%;
 }
 
@@ -16,8 +50,8 @@ ul {
 }
 
 body > header {
-    background-color: orange;
-    color: white;
+    background-color: #b13939;
+    color: 	#f9f5ea;
     display: flex;
     height: 12vh;
     align-items: center;
@@ -26,11 +60,13 @@ body > header {
 
 #nav-ul {
     display: flex;
+    align-items: center;
 }
 
 #nav-ul > li {
-    padding: 8px;
-    margin: 16px;
+    padding: 0.5vw;
+    margin: 0.1vw;
+    justify-content: space-around;
 }
 
 body > header > nav > ul {
@@ -39,11 +75,8 @@ body > header > nav > ul {
 }
 
 .navbutton {
-    color: white;
-    text-decoration: none;
+    color: 	#f9f5ea;
     padding: 12px;
-    border: 1px solid white;
-    border-radius: 10%;
 }
 
 body > main article {
@@ -89,4 +122,10 @@ img {
 #footer-ul > div > li > a {
     text-decoration: none;
     color: white;
+}
+
+#cartlogo {
+    width: 5vw;
+    height: 5vhpx;
+    border-radius: 100%;
 }
