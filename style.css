@@ -3,6 +3,7 @@ body {
     margin: 0px;
     font-size: 2vw;
     background-color: #f9f5ea;
+    color: 	#2c2c2c;
 } 
 
 .title-container {
@@ -66,7 +67,8 @@ body {
     display: flex;
     align-items: center;
     color: #ffffff;
-    border: black;
+    padding-left: 3vw;
+
 }
 
 #nav-ul {
@@ -80,9 +82,16 @@ body {
     justify-content: space-around;
 }
 
+#nav-ul > li > a:hover {
+    text-decoration: underline;
+}
+
+#nav-ul > li > a {
+    text-decoration: none;
+}
+
 #nav-ul {
     list-style: none;
-    text-decoration: none;
 }
 
 .navbutton {
@@ -93,6 +102,10 @@ body {
 body > main article {
     width: 70%;
     margin: auto;
+}
+
+.nobottompad {
+    margin-bottom: none;
 }
 
 #main-content {
@@ -119,11 +132,20 @@ body > footer {
 
 .nobullet {
     list-style: none;
-    text-decoration: none;
 }
 
+.nobullet a {
+    text-decoration: none;
+    color: 	#2c2c2c;
+}
+
+.nobullet a:hover {
+    color: 	#aee6ce;
+} 
+
 #definition {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Didot, Helvetica, sans-serif;
+    padding: 1vw;
 }
 
 
@@ -132,6 +154,7 @@ body > footer {
     display: flex;
     align-items: center;
     color: #f9f5ea;
+    padding-left: 1vw;
 }
 
 #footer-ul {
@@ -143,6 +166,16 @@ body > footer {
 #footer-ul > div > li > a {
     text-decoration: none;
     color: white;
+}
+
+#footer-ul > div > li > a:hover {
+    text-decoration: underline;
+}
+
+.bigger {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #cartlogo {
