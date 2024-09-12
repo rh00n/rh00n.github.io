@@ -104,9 +104,9 @@ body > main article {
     margin: auto;
 }
 
-.nobottompad {
+/* .nobottompad {
     margin-bottom: none;
-}
+} */
 
 #main-content {
     display: flex;
@@ -146,6 +146,7 @@ body > footer {
 #definition {
     font-family: Didot, Helvetica, sans-serif;
     padding: 1vw;
+    text-align: justify;
 }
 
 
@@ -160,6 +161,8 @@ body > footer {
 #footer-ul {
     list-style: none;
     align-items: center;
+    text-align: right;
+    margin-left: 40vw;
 }
 
 
@@ -176,6 +179,10 @@ body > footer {
     font-size: 1.3em;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+#movingvisual {
+    text-align: justify;
 }
 
 #cartlogo {
